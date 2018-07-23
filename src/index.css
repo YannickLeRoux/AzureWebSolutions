@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* fonts:
+================================================================================= */
+
+/* Cooper Hewitt Thin */
+
+@font-face {
+	font-family: 'Cooper Hewitt Thin';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.eot');
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.woff2') format('woff2'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.woff') format('woff'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.ttf') format('truetype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Thin.svg#Lato_regularregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Aileron Thin */
+
+@font-face {
+	font-family: 'Aileron Thin';
+	src: url('./assets/fonts/aileron/Aileron-Thin.eot');
+	src: url('./assets/fonts/aileron/Aileron-Thin.eot?#iefix') format('embedded-opentype'),
+		 url('./assets/fonts/aileron/Aileron-Thin.woff2') format('woff2'),
+		 url('./assets/fonts/aileron/Aileron-Thin.woff') format('woff'),
+		 url('./assets/fonts/aileron/Aileron-Thin.ttf') format('truetype'),
+		 url('./assets/fonts/aileron/Aileron-Thin.svg#Lato_regularregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
