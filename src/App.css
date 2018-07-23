@@ -2,6 +2,7 @@
   --azureBlue:#2D80E4;
   --lightBlue:#03B0E9;
   --accentOrange: #EE8434;
+  --accentYellow: #fed136;
 
 }
 
@@ -19,7 +20,7 @@ h1 {
 
 h2 {
   font-family: 'Cooper Hewitt Thin';
-  font-size: 1,75em;
+  font-size: 1.75em;
   text-transform: uppercase;
   letter-spacing: 0.13em;
 
@@ -29,6 +30,43 @@ p {
   font-family: 'Aileron Thin';
   font-size: 1em;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+a {
+  color: #fed136;
+}
+
+a:hover {
+  color: #fec503;
+}
+
+.text-primary {
+  color: #fed136 !important;
+}
+
+
+section {
+  padding: 100px 0;
+}
+
+section h2.section-heading {
+  font-size: 1.75em;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+section h3.section-subheading {
+  font-size: 1em;
+  font-weight: 400;
+  margin-bottom: 75px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 150px 0;
+  }
 }
 
 #shape1 {
@@ -38,7 +76,7 @@ p {
   background-color: var(--lightBlue);
   width: 100%;
   height: 110vh;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index: -10
 }
 
@@ -54,7 +92,7 @@ p {
   background-color: var(--azureBlue);
   width: 100%;
   height: 80vh;
-  opacity: 0.7;
+  opacity: 0.5;
   z-index:-10;
 }
 
