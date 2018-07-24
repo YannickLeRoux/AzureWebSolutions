@@ -3,6 +3,8 @@
   --lightBlue:#03B0E9;
   --accentOrange: #EE8434;
   --accentYellow: #fed136;
+  --darkGrey: #1B1E22;
+  --lighterdarkGrey: ##363C45;
 
 }
 
@@ -10,15 +12,18 @@ body {
   overflow-x: hidden;
   font-family: 'Cooper Hewitt Thin', sans-serif;
   font-size: 16px;
+  color: var(--darkGrey);
 }
 
 h1 {
+  color: var(--darkGrey);
   font-family: 'Cooper Hewitt Thin';
   font-size: 5em;
   letter-spacing: -0.001px;
 }
 
 h2 {
+  color: var(--darkGrey);
   font-family: 'Cooper Hewitt Thin';
   font-size: 1.75em;
   text-transform: uppercase;
@@ -31,6 +36,7 @@ p {
   font-size: 1em;
   letter-spacing: 0.04em;
   line-height: 1.5;
+  color: var(--lighterdarkGrey);
 }
 
 a {
@@ -51,12 +57,14 @@ section {
 }
 
 section h2.section-heading {
+  color: var(--darkGrey);
   font-size: 1.75em;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 section h3.section-subheading {
+  color: var(--darkGrey);
   font-size: 1em;
   font-weight: 400;
   margin-bottom: 75px;
@@ -107,4 +115,14 @@ section h3.section-subheading {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+.btn-primary {
+  background-color: var(--accentYellow);
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: var(--lightBlue);
 }

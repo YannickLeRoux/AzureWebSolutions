@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-// import '../assets/css/Navigation.css';
+import '../assets/css/Navigation.css';
 
 import {
   Collapse,
@@ -25,7 +25,7 @@ class NavBar extends Component {
   }
   render() {
     return (
-      <header>
+      <header id="mainNav">
         <nav className="navbar navbar-light navbar-expand-md navigation-clean">
           <div className="container">
             <Link className="navbar-brand" to='/'>Azure Web Solutions</Link>
