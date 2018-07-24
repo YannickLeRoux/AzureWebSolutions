@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="clearfix"></div>
             <div className="col-lg-12 text-center">
                 <div id="success"></div>
-                <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                <button id="sendMessageButton" className="btn btn-primary btn-xl text-uppercase mt-3" type="submit">Send Message</button>
               </div>
           </div>
           </form>

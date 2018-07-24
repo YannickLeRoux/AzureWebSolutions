@@ -18,7 +18,7 @@ const Heading = () => {
         </Row>
         <Row>
              <Col></Col>
-             <Col md="6" xs="12" className="text-center my-5">
+             <Col md="6" xs="12" className="text-center my-2">
              <button className="mx-auto btn btn-primary">Ask For A Free Quote</button>
              </Col>
         </Row>
