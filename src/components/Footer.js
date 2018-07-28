@@ -13,17 +13,17 @@ const Footer = () => {
         <ul className="list-inline social-buttons">
             <li className="list-inline-item">
             <a href="#">
-                <i className="fa fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
             </a>
             </li>
             <li className="list-inline-item">
             <a href="#">
-                <i className="fa fa-facebook"></i>
+                <i className="fab fa-facebook-f"></i>
             </a>
             </li>
             <li className="list-inline-item">
             <a href="#">
-                <i className="fa fa-linkedin"></i>
+                <i className="fab fa-linkedin-in"></i>
             </a>
             </li>
         </ul>

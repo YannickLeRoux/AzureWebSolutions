@@ -25,11 +25,20 @@
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    font-family: 'Cooper Hewitt Thin', sans-serif;
+    font-family: 'Cooper Hewitt Light', sans-serif;
   }
 
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136;
+    color: var(--accentOrange);
+  }
+
+  #mainNav .navbar-nav .nav-item .nav-link.active::after {
+    -webkit-clip-path: polygon(100% 0, 0 0, 49% 100%);
+    clip-path: polygon(100% 0, 0 0, 49% 100%);
+    content: " ";
+    background-color: var(--accentOrange);
+    width: 16px;
+    height: 16px;
   }
 
   @media (min-width: 992px) {

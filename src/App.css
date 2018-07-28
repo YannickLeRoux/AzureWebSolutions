@@ -2,6 +2,7 @@
   --azureBlue:#2D80E4;
   --lightBlue:#03B0E9;
   --accentOrange: #EE8434;
+  --borderOrange: #BF7740;
   --accentYellow: #fed136;
   --darkGrey: #1B1E22;
   --lighterdarkGrey: ##363C45;
@@ -24,7 +25,7 @@ h1 {
 
 h2 {
   color: var(--darkGrey);
-  font-family: 'Cooper Hewitt Thin';
+  font-family: 'Cooper Hewitt Light';
   font-size: 1.75em;
   text-transform: uppercase;
   letter-spacing: 0.13em;
@@ -44,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: var(--accentOrange);
 }
 
 .text-primary {
@@ -119,8 +120,16 @@ section h3.section-subheading {
 
 
 .btn-primary {
-  background-color: var(--accentYellow);
+  text-transform: uppercase;
+  font-family: 'Cooper Hewitt Bold';
+  font-size: 14px;
+  height: 48px;
+  padding: 0 20px 0 20px;
+  background-color: var(--accentOrange);
+  border-color: var(--borderOrange);
   color: black;
+  letter-spacing: 0.6px;
+  color: white;
 }
 
 .btn-primary:hover {

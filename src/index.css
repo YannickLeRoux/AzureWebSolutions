@@ -21,6 +21,33 @@ body {
 	font-style: normal;
 }
 
+/* Cooper Hewitt Light */
+
+@font-face {
+	font-family: 'Cooper Hewitt Light';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.eot');
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.eot?#iefix') format('embedded-opentype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.woff2') format('woff2'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.woff') format('woff'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.ttf') format('truetype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Light.svg#Lato_regularregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Cooper Hewitt Bold */
+
+@font-face {
+	font-family: 'Cooper Hewitt Bold';
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.eot');
+	src: url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.woff2') format('woff2'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.woff') format('woff'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.ttf') format('truetype'),
+		 url('./assets/fonts/cooper-hewitt/CooperHewitt-Bold.svg#Lato_regularregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Aileron Thin */
 
 @font-face {
