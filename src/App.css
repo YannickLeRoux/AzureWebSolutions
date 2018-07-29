@@ -138,7 +138,7 @@ section h3.section-subheading {
 
 
 .logo-headline {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Bebas Neue Regular', sans-serif;
   font-size: 80px;
   color: var(--darkGrey);
   letter-spacing: 0.02em;
@@ -147,6 +147,7 @@ section h3.section-subheading {
 .logo-tagline {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  font-weight: 400;
   background-color: var(--accentYellow);
   color: var(--darkGrey);
   letter-spacing: 0.8em;
