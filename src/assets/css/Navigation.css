@@ -8,20 +8,21 @@
     padding: 13px;
     text-transform: uppercase;
     border: 0;
-    background-color: #fed136;
+    background-color: var(--accentYellow);
     font-family: 'Cooper Hewitt Thin', sans-serif;
   }
 
   #mainNav .navbar-brand {
-    font-family: 'Cooper Hewitt Thin', sans-serif;
+    /*font-family: 'Cooper Hewitt Thin', sans-serif;*/
   }
 
   #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fec503;
+    color: var(--accentYellow);
   }
 
   #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    color: var(--darkGrey);
+    font-size: 1.2em;
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
@@ -29,7 +30,7 @@
   }
 
   #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: var(--accentOrange);
+    color: var(--accentYellow);
   }
 
   #mainNav .navbar-nav .nav-item .nav-link.active::after {
@@ -43,7 +44,7 @@
 
   @media (min-width: 992px) {
     #mainNav {
-      padding-top: 25px;
+      /*padding-top: 25px;*/
       padding-bottom: 25px;
       -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
       -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -63,7 +64,7 @@
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #212529;
+      background-color: var(--darkGrey);
     }
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;

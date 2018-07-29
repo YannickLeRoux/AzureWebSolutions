@@ -9,6 +9,8 @@ import {
   NavItem,
    } from 'reactstrap';
 
+import Logo from './Logo';
+
 class NavBar extends Component {
   constructor(props) {
     super(props);
@@ -28,7 +30,7 @@ class NavBar extends Component {
       <header id="mainNav">
         <nav className="navbar navbar-light navbar-expand-md navigation-clean">
           <div className="container">
-            <Link className="navbar-brand" to='/'>Azure Web Solutions</Link>
+            <Link className="navbar-brand" to='/'><Logo /></Link>
 
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
